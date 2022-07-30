@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_dx11.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_win32.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imconfig.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imstb_truetype.h" />
+    <ClInclude Include="AntiDbg.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="base.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="crossmap.h" />
+    <ClInclude Include="D3DHooking.h" />
+    <ClInclude Include="detour_hook.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="features.h" />
+    <ClInclude Include="fiber_pool.h" />
+    <ClInclude Include="fonts.h" />
+    <ClInclude Include="function_types.h" />
+    <ClInclude Include="fwddec.h" />
+    <ClInclude Include="gta_util.h" />
+    <ClInclude Include="gui.h" />
+    <ClInclude Include="handle.h" />
+    <ClInclude Include="hooking.h" />
+    <ClInclude Include="invoker.h" />
+    <ClInclude Include="joaat.h" />
+    <ClInclude Include="Locations.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="module.h" />
+    <ClInclude Include="nativeFuncs.h" />
+    <ClInclude Include="natives.h" />
+    <ClInclude Include="pattern.h" />
+    <ClInclude Include="pattern_batch.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="pointers.h" />
+    <ClInclude Include="range.h" />
+    <ClInclude Include="script.h" />
+    <ClInclude Include="script_global.h" />
+    <ClInclude Include="script_mgr.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="stb_image_write.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="TeleLocation.h" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="vehicles.h" />
+    <ClInclude Include="vmtHook.h" />
+    <ClInclude Include="XMLStuff.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui.cpp" />
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="AntiDbg.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="D3DHooking.cpp" />
+    <ClCompile Include="detour_hooking.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="features.cpp" />
+    <ClCompile Include="fiber_pool.cpp" />
+    <ClCompile Include="gui.cpp" />
+    <ClCompile Include="hooking.cpp" />
+    <ClCompile Include="invoker.cpp" />
+    <ClCompile Include="Locations.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="module.cpp" />
+    <ClCompile Include="pattern.cpp" />
+    <ClCompile Include="pattern_batch.cpp" />
+    <ClCompile Include="pointers.cpp" />
+    <ClCompile Include="range.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="script_global.cpp" />
+    <ClCompile Include="script_mgr.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="vehicles.cpp" />
+    <ClCompile Include="vmtHook.cpp" />
+    <ClCompile Include="XMLStuff.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E9AFC59F-F80D-483D-97A8-019F36D37EA2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Cherax30</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\ImGui\examples;E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\ImGui;E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\MinHook\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\MinHook\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\D3D11Tex;E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\MinHook\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\ImGui;E:\Sonstiges\c++\Visual Studio\Cherax 3.0\Cherax 3.0\ImGui\examples;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;CHERAX30_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;CHERAX30_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;CHERAX30_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;CHERAX30_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿  imgui_impl_dx11.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_dx11.cpp”: No such file or directory
+  imgui_impl_win32.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_win32.cpp”: No such file or directory
+  imgui.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui.cpp”: No such file or directory
+  imgui_demo.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_demo.cpp”: No such file or directory
+  imgui_draw.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_draw.cpp”: No such file or directory
+  imgui_widgets.cpp
+c1xx : fatal error C1083: 无法打开源文件: “..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_widgets.cpp”: No such file or directory
+  AntiDbg.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\AntiDbg.cpp(137,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  common.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\common.cpp(91,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  D3DHooking.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\D3DHooking.cpp(693,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  detour_hooking.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\detour_hooking.cpp(88,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  dllmain.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\dllmain.cpp(97,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  features.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\features.cpp(3291,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  fiber_pool.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\fiber_pool.cpp(51,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  gui.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\gui.cpp(3187,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  hooking.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\hooking.cpp(636,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  invoker.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\invoker.cpp(52,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  Locations.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\Locations.cpp(564,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  logger.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\logger.cpp(16,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  memory.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\memory.cpp(128,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  module.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\module.cpp(34,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  正在编译...
+  pattern.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\pattern.cpp(91,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  pattern_batch.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\pattern_batch.cpp(41,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  pointers.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\pointers.cpp(274,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  range.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\range.cpp(75,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  script.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\script.cpp(95,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  script_global.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\script_global.cpp(24,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  script_mgr.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\script_mgr.cpp(37,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  tinyxml2.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(65,1): warning C4005: “TIXML_SSCANF”: 宏重定义
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(60): message : 参见“TIXML_SSCANF”的前一个定义
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(92,1): warning C4005: “TIXML_SNPRINTF”: 宏重定义
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(63): message : 参见“TIXML_SNPRINTF”的前一个定义
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(93,1): warning C4005: “TIXML_VSNPRINTF”: 宏重定义
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(64): message : 参见“TIXML_VSNPRINTF”的前一个定义
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\tinyxml2.cpp(2927,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  vehicles.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\vehicles.cpp(2944,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  vmtHook.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\vmtHook.cpp(34,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?
+  XMLStuff.cpp
+C:\Users\HolyWu\Desktop\gtav Menu\Cherax\XMLStuff.cpp(356,1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "pch.h"”?

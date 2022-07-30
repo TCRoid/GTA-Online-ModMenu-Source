@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\memory">
+      <UniqueIdentifier>{70789390-f74a-40d8-81cc-899c90082440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\graphics">
+      <UniqueIdentifier>{c600a58d-53fe-454a-918c-ebcb96f34930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\memory">
+      <UniqueIdentifier>{c6bbdcd5-fd48-4ef1-81ef-d0b01573b4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\graphics">
+      <UniqueIdentifier>{60a350de-1e69-4af9-b528-87ab1d9d22cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\ImGui">
+      <UniqueIdentifier>{d45c886d-bce2-4a2b-b452-6f6def132480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GTA">
+      <UniqueIdentifier>{c78efc7d-262a-4003-a740-31245c720727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GTA">
+      <UniqueIdentifier>{0827e50e-1467-4d96-bdf8-f0a61791b4f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="function_types.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DHooking.h">
+      <Filter>Headerdateien\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="fwddec.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern_batch.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="range.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Headerdateien\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imconfig.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_internal.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imstb_rectpack.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imstb_textedit.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imstb_truetype.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_dx11.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_win32.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="joaat.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="base.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="handle.h">
+      <Filter>Headerdateien\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="fiber_pool.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="script_mgr.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="gta_util.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="crossmap.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="nativeFuncs.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="vmtHook.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDbg.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="script_global.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>Headerdateien\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicles.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="detour_hook.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleLocation.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="Locations.h">
+      <Filter>Headerdateien\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLStuff.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DHooking.cpp">
+      <Filter>Quelldateien\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Quelldateien\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern_batch.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="range.cpp">
+      <Filter>Quelldateien\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Ressourcendateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui.cpp">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_demo.cpp">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_draw.cpp">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_widgets.cpp">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_dx11.cpp">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_win32.cpp">
+      <Filter>Ressourcendateien\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="fiber_pool.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Quelldateien\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="script_mgr.cpp">
+      <Filter>Quelldateien\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="features.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="invoker.cpp">
+      <Filter>Quelldateien\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="vmtHook.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDbg.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="script_global.cpp">
+      <Filter>Quelldateien\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="vehicles.cpp">
+      <Filter>Quelldateien\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="detour_hooking.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Locations.cpp">
+      <Filter>Quelldateien\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLStuff.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

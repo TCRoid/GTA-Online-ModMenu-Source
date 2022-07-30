@@ -1,0 +1,63 @@
+﻿  imgui_impl_dx11.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_dx11.cpp': No such file or directory
+  imgui_impl_win32.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\Cherax RDR2\Cherax RDR2\ImGui\examples\imgui_impl_win32.cpp': No such file or directory
+  imgui.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui.cpp': No such file or directory
+  imgui_demo.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_demo.cpp': No such file or directory
+  imgui_draw.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_draw.cpp': No such file or directory
+  imgui_widgets.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\..\Cherax RDR2\Cherax RDR2\ImGui\imgui_widgets.cpp': No such file or directory
+  AntiDbg.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  common.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  D3DHooking.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  detour_hooking.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  dllmain.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  features.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  fiber_pool.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  gui.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  hooking.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  invoker.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  Locations.cpp
+C:\Users\LUAN\Desktop\Cherax\Locations.cpp(368,3): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\LUAN\Desktop\Cherax\Locations.cpp(543,3): warning C4305: 'argument': truncation from 'double' to 'float'
+  logger.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  memory.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  module.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  Compiling...
+  pattern.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  pattern_batch.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  pointers.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  range.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  script.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  script_global.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  script_mgr.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  tinyxml2.cpp
+  vehicles.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  vmtHook.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
+  XMLStuff.cpp
+C:\Users\LUAN\Desktop\Cherax\common.h(76,10): fatal error C1083: Cannot open include file: 'D3DX11tex.h': No such file or directory
