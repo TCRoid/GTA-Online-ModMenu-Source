@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gta">
+      <UniqueIdentifier>{6178880B-CD81-887C-56FD-9E7CC205947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{DEA8820D-CA4A-ADE3-B305-C1379F463434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeadFile">
+      <UniqueIdentifier>{79515ae0-6c02-4c0b-b819-ebaaadfea468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{f954b29d-a677-4cff-9a28-8143817ba2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{275983c7-4920-4d4f-bb36-0f8c4872e00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gta\gui">
+      <UniqueIdentifier>{8A78880B-F681-887C-7FFD-9E7CEB05947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\gta\PickupRewards.h">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\VehicleValues.h">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\Vehicles.h">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\Weapons.h">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\array.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\base.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\blip.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\color.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\decal_controller.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\enums.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\extensible.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\fwddec.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\joaat.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\matrix.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\natives.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\net_game_event.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\net_object_mgr.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\node_list.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\ped_factory.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\player.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\ref_aware.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\replay.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_handler.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_id.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_program.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\script_thread.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\sysMemAllocator.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\tls_context.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta\vector.hpp">
+      <Filter>gta</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui.hpp" />
+    <ClInclude Include="src\gui\base_tab.h">
+      <Filter>gta\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooking.hpp" />
+    <ClInclude Include="src\imguibitfield.h" />
+    <ClInclude Include="src\memory\all.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\fwddec.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\handle.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\module.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pattern.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\pattern_batch.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\memory\range.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pointers.hpp" />
+    <ClInclude Include="src\common.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\benchmark.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crossmap.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\detour_hook.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fiber_pool.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fonts.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\function_types.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gta_util.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\invoker.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logger.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vmt_hook.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\settings.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_mgr.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_local.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_hook.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script_global.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\script.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\natives.hpp">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\hwd.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ini.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common.cpp" />
+    <ClCompile Include="src\detour_hook.cpp" />
+    <ClCompile Include="src\fiber_pool.cpp" />
+    <ClCompile Include="src\fonts.cpp" />
+    <ClCompile Include="src\gui.cpp" />
+    <ClCompile Include="src\gui\base_tab.cpp">
+      <Filter>gta\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooking.cpp" />
+    <ClCompile Include="src\invoker.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\memory\module.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pattern.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\pattern_batch.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\memory\range.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointers.cpp" />
+    <ClCompile Include="src\renderer.cpp" />
+    <ClCompile Include="src\vmt_hook.cpp" />
+    <ClCompile Include="src\features.cpp">
+      <Filter>Features</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_local.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_mgr.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_hook.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script_global.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\script.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ini.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoof.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Yi.rc" />
+  </ItemGroup>
+</Project>
