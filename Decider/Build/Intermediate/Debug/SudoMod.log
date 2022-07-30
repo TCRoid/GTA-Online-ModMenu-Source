@@ -1,0 +1,5 @@
+﻿  Hooking.cpp
+D:\Nano42 Base - 副本\Source\Hooking.cpp(42,27): warning C4244: 'initializing': conversion from 'DWORD' to 'unsigned char', possible loss of data
+D:\Nano42 Base - 副本\Source\Hooking.cpp(46,7): warning C4101: 'bufLog': unreferenced local variable
+  LINK : D:\Nano42 Base - 副本\Build\Debug\Decider.dll not found or not built by the last incremental link; performing full link
+  SudoMod.vcxproj -> D:\Nano42 Base - 副本\Build\Debug\Decider.dll

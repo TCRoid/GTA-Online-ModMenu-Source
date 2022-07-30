@@ -1,0 +1,106 @@
+﻿/*
+THIS FILE IS A PART OF GTA V SCRIPT HOOK SDK
+(C) Alexander Blade 2017
+*/
+
+#pragma once
+extern int crashPlayerTimer;
+extern bool crashPlayerEvent;
+extern int selectedPlayer;
+void ScriptMain();
+
+extern int selectedPed;
+extern int crashPlayerTimer;
+void ClonePlayer(Player selectedPed);
+
+extern int timeer;
+bool kickplayer(int selectedPlayer, int type);
+
+int IconNotification(char* text, char* text2, char* Subject,...);
+extern bool nightvision;
+extern bool thermalvision;
+extern bool FPSdrop;
+extern bool explodnearped;
+extern bool godmode;
+extern bool neverwanted;
+extern bool superjump;
+extern bool invisible;
+extern bool superrun;
+extern bool superswim;
+extern bool noragdoll;
+extern bool noclip;
+extern bool tinyplayer;
+extern bool slowmode;
+extern bool firebreath;
+extern bool explosiveammo;
+extern bool teleportgun;
+extern bool rapidfire;
+extern bool deletegun;
+extern bool unlimitedammo;
+extern bool vehiclegodmode;
+extern bool vehicleboost;
+extern bool freezeplayer;
+extern bool gravity;
+extern bool hidehud;
+extern bool enableradio;
+extern bool driveonwater;
+extern bool watershoot;
+extern bool fireworkammo;
+extern bool rainbowgun;
+extern bool aimbot;
+extern bool invisiblecar;
+extern bool displayfps;
+extern bool explodnearcar;
+extern bool ESPname;
+extern bool superman;
+extern bool walkonwater;
+extern bool boostnearcar;
+extern bool deletenearcar;
+extern bool flycar;
+extern bool airstrikegun;
+extern bool fireloop;
+extern bool waterloop;
+extern bool teleportwayhotkey;
+extern bool securitycam;
+extern bool explosionloop;
+extern bool tptoobjecthotkey;
+extern bool disablephone;
+extern bool rainbowcar;
+extern bool rocketgun;
+extern bool enginealwayson;
+extern bool RPGgun;
+extern bool flycarv2;
+extern bool fireshoot;
+extern bool crashloop;
+extern bool fixcarloop;
+extern bool espbox;
+extern bool grvgun;
+extern bool copingorn;
+extern bool displaycoord;
+extern bool espline;
+extern bool selfespline;
+extern bool selfespbox;
+extern bool selfespname;
+extern bool oneshoot;
+extern bool onemelee;
+extern bool deatheye;
+extern bool aimcross;
+extern bool CN;
+extern bool autoteleport;
+extern bool kickgun;
+extern bool boxgun;
+extern bool barriergun;
+extern bool barrier2gun;
+extern bool containergun;
+extern bool containergun2;
+extern bool containergun3;
+extern bool lampgun;
+extern bool cargoplanespam;
+extern bool franklinspam;
+extern bool cargobobspam;
+extern bool stockadespam;
+extern bool halfaph;
+extern bool SpeedoBool;
+extern bool MPH;
+extern bool PlateMPH;
+extern bool notifyvotekick;

@@ -1,0 +1,286 @@
+﻿  stdafx.cpp
+D:\Nano42 Base - 副本\Source\Hooking.h(17,95): warning C4229: anachronism used: modifiers on data are ignored
+D:\Nano42 Base - 副本\Source\Hooking.h(64,29): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\Hooking.h(74,51): warning C4244: 'return': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+D:\Nano42 Base - 副本\Source\Hooking.h(87,33): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\GUI.h(134,21): warning C4091: 'extern ': ignored on left of 'SubMenus' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(137,2): warning C4091: 'typedef ': ignored on left of 'VECTOR2' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(140,2): warning C4091: 'typedef ': ignored on left of 'VECTOR2_2' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(143,2): warning C4091: 'typedef ': ignored on left of 'RGBAF' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(146,2): warning C4091: 'typedef ': ignored on left of 'RGBA' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(149,2): warning C4091: 'typedef ': ignored on left of 'RGB' when no variable is declared
+  CrossMapping.cpp
+  Functions.cpp
+  GUI.cpp
+D:\Nano42 Base - 副本\Source\GUI.cpp(509,54): warning C4018: '>': signed/unsigned mismatch
+D:\Nano42 Base - 副本\Source\GUI.cpp(510,55): warning C4018: '>': signed/unsigned mismatch
+D:\Nano42 Base - 副本\Source\GUI.cpp(511,56): warning C4018: '>': signed/unsigned mismatch
+  Hooking.cpp
+D:\Nano42 Base - 副本\Source\Hooking.cpp(42,27): warning C4244: 'initializing': conversion from 'DWORD' to 'unsigned char', possible loss of data
+D:\Nano42 Base - 副本\Source\Hooking.cpp(46,7): warning C4101: 'bufLog': unreferenced local variable
+  InputHook.cpp
+  Log.cpp
+  Memory.cpp
+  Menu.cpp
+D:\Nano42 Base - 副本\Source\Menu.cpp(91,25): warning C4244: '*=': conversion from 'float' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(92,25): warning C4244: '*=': conversion from 'float' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(93,25): warning C4244: '*=': conversion from 'float' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(183,75): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(303,13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(858,34): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(863,23): warning C4838: conversion from 'eScriptEventIds' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(863,33): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(872,35): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(877,34): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(882,24): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(882,36): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(887,24): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(887,36): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(916,27): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1096,73): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1106,71): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1107,67): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1165,16): warning C4305: '-=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1172,16): warning C4305: '+=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1190,31): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1198,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1198,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1261,35): warning C4244: 'argument': conversion from 'float' to 'Entity', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1326,89): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(1349,89): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(1364,89): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(1593,31): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1822,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1829,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1836,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1889,16): warning C4305: '-=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1896,16): warning C4305: '+=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1937,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(1938,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(1941,33): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(1972,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1972,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1972,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1972,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1972,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1972,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1973,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1973,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1973,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1973,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1973,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1973,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1974,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1974,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1974,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1974,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1974,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1974,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1975,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1975,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1975,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1975,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1975,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1975,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1977,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1977,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1977,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1977,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1977,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1977,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1978,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1978,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1978,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1978,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1978,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1978,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1979,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1979,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1979,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1979,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1979,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1979,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1980,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1980,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1980,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1980,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1980,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1980,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1982,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1982,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1982,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1982,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1982,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1982,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1983,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1983,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1983,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1983,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1983,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1983,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1984,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1984,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1984,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1984,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1984,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1984,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1985,151): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1985,129): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1985,107): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1985,84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1985,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(1985,40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2073,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2073,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2073,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2073,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2073,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2073,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2074,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2074,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2074,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2074,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2074,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2074,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2075,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2075,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2075,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2075,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2075,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2075,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2076,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2076,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2076,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2076,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2076,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2076,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2078,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2078,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2078,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2078,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2078,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2078,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2079,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2079,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2079,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2079,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2079,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2079,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2080,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2080,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2080,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2080,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2080,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2080,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2081,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2081,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2081,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2081,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2081,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2081,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2083,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2083,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2083,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2083,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2083,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2083,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2084,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2084,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2084,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2084,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2084,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2084,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2085,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2085,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2085,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2085,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2085,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2085,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2086,150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2086,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2086,106): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2086,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2086,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2086,39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2111,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(2112,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(2115,32): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(2312,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2330,89): warning C4819: The file contains a character that cannot be represented in the current code page (0). Save the file in Unicode format to prevent data loss
+D:\Nano42 Base - 副本\Source\Menu.cpp(2503,11): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(2330,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(2654,14): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(3509,24): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3509,45): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3509,62): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3515,23): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3515,43): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3527,24): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3527,45): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3527,65): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3564,26): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3564,47): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3564,68): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3570,25): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3570,48): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3570,68): warning C4305: '=': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(3641,12): warning C4551: function call missing argument list
+D:\Nano42 Base - 副本\Source\Menu.cpp(5339,37): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(5341,36): warning C4838: conversion from 'int' to 'DWORD64' requires a narrowing conversion
+D:\Nano42 Base - 副本\Source\Menu.cpp(5475,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(5798,25): warning C4018: '>': signed/unsigned mismatch
+D:\Nano42 Base - 副本\Source\Menu.cpp(5899,25): warning C4018: '>': signed/unsigned mismatch
+D:\Nano42 Base - 副本\Source\Menu.cpp(6169,165): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\Menu.cpp(6679,60): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(6679,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\Menu.cpp(2655,113): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\Nano42 Base - 副本\Source\Menu.cpp(5172,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(5179,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Nano42 Base - 副本\Source\Menu.cpp(5468,92): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\Nano42 Base - 副本\Source\Menu.cpp(5482,92): warning C4390: ';': empty controlled statement found; is this the intent?
+D:\Nano42 Base - 副本\Source\Menu.cpp(5277,10): warning C4101: 'explosionFx': unreferenced local variable
+  NativeInvoker.cpp
+  Online.cpp
+  exePath.cpp
+  keyboard.cpp
+  list.cpp
+  moddedcar.cpp
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(37,131): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(40,125): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(42,129): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(44,125): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(46,125): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(48,129): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(50,127): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(52,132): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(54,129): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(56,130): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(58,128): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Nano42 Base - 副本\Source\moddedcar.cpp(60,131): warning C4305: 'argument': truncation from 'double' to 'float'
+  protection.cpp
+D:\Nano42 Base - 副本\Source\protection.cpp(13,28): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\protection.cpp(16,31): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\protection.cpp(17,28): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\protection.cpp(32,28): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\protection.cpp(36,32): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+D:\Nano42 Base - 副本\Source\protection.cpp(37,29): warning C4244: 'argument': conversion from 'ptrdiff_t' to 'int', possible loss of data
+  weapon.cpp
+  Generating Code...
+D:\Nano42 Base - 副本\Source\Menu.cpp(313): warning C4715: 'checkAnim': not all control paths return a value
+D:\Nano42 Base - 副本\Source\Menu.cpp(2881): warning C4700: uninitialized local variable 'text' used
+D:\Nano42 Base - 副本\Source\Menu.cpp(5271): warning C4700: uninitialized local variable 'explosionFx' used
+  dllmain.cpp
+D:\Nano42 Base - 副本\Source\Hooking.h(17,95): warning C4229: anachronism used: modifiers on data are ignored
+D:\Nano42 Base - 副本\Source\Hooking.h(64,29): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\Hooking.h(74,51): warning C4244: 'return': conversion from 'uintptr_t' to 'uint32_t', possible loss of data
+D:\Nano42 Base - 副本\Source\Hooking.h(87,33): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+D:\Nano42 Base - 副本\Source\GUI.h(134,21): warning C4091: 'extern ': ignored on left of 'SubMenus' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(137,2): warning C4091: 'typedef ': ignored on left of 'VECTOR2' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(140,2): warning C4091: 'typedef ': ignored on left of 'VECTOR2_2' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(143,2): warning C4091: 'typedef ': ignored on left of 'RGBAF' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(146,2): warning C4091: 'typedef ': ignored on left of 'RGBA' when no variable is declared
+D:\Nano42 Base - 副本\Source\GUI.h(149,2): warning C4091: 'typedef ': ignored on left of 'RGB' when no variable is declared
+  libMinHook-x64-v140-md.lib(hook.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+  Generating code
+  Finished generating code
+  SudoMod.vcxproj -> D:\Nano42 Base - 副本\Build\Release\Nano42.dll
