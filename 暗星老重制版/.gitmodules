@@ -1,0 +1,29 @@
+[submodule "vendor/fmtlib"]
+	path = vendor/fmtlib
+	url = https://github.com/fmtlib/fmt
+	ignore = dirty
+[submodule "vendor/json"]
+	path = vendor/json
+	url = https://github.com/nlohmann/json
+	ignore = dirty
+[submodule "vendor/MinHook"]
+	path = vendor/MinHook
+	url = https://github.com/TsudaKageyu/minhook
+	ignore = dirty
+[submodule "vendor/ImGui"]
+	path = vendor/ImGui
+	url = https://github.com/ocornut/imgui
+	ignore = dirty
+[submodule "vendor/g3log"]
+	path = vendor/g3log
+	url = https://github.com/KjellKod/g3log.git
+	ignore = dirty
+[submodule "vendor/GTAV-Classes"]
+	path = vendor/GTAV-Classes
+	url = https://github.com/Yimura/GTAV-Classes.git
+[submodule "vendor/httprequest"]
+	path = vendor/httprequest
+	url = https://github.com/elnormous/HTTPRequest.git
+[submodule "vendor/pugixml"]
+	path = vendor/pugixml
+	url = https://github.com/zeux/pugixml
